@@ -38,36 +38,36 @@ function Intro() {
             <path
               id="Vector"
               d="M40.5 15L34.5 9L28.5 15"
-              stroke-width="3"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="3"
+              strokeMiterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <path
               id="Vector_2"
               d="M28.5 24L34.5 30L40.5 24"
-              stroke-width="3"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="3"
+              strokeMiterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <g id="Group">
               <path
                 id="Vector_3"
                 d="M9 37.5H60"
-                stroke-width="3"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="3"
+                strokeMiterlimit="10"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </g>
             <path
               id="Vector_4"
               d="M34.5 27V9"
-              stroke-width="2.9895"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeWidth="2.9895"
+              strokeMiterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             />
             <g id="Group_2">
               <path

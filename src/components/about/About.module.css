@@ -1,0 +1,39 @@
+.aboutPage {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.aboutLeft {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+}
+.aboutRight {
+  flex: 1;
+}
+
+.aboutWrapperBg {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: rgb(212, 238, 94);
+  width: 60%;
+  height: 70vh;
+}
+.aboutWrapper {
+  width: 60%;
+  height: 70vh;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+  background-color: blue;
+}
+
+.aboutImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
