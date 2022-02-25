@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 1,
-    img: "https://user-images.githubusercontent.com/89261015/135237967-ac80b426-4272-45e1-b200-34406a4a86dd.png",
+    img: "https://user-images.githubusercontent.com/89261015/155715049-8bd16771-e568-4d38-bc7e-ebd9681bf11f.png",
     link: "placeholer",
   },
   {
@@ -24,5 +24,9 @@ export const projects = [
     img: "https://user-images.githubusercontent.com/89261015/155709585-d8472ce5-ea5a-43ef-b7d3-165561b0fe37.png",
     link: "placeholer",
   },
-  { id: 6, img: "", link: "placeholer" },
+  {
+    id: 6,
+    img: "https://user-images.githubusercontent.com/89261015/155712835-a9c2d61d-401f-4250-89e4-14d9543959bd.png",
+    link: "placeholer",
+  },
 ];
