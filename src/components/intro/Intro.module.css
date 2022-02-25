@@ -1,0 +1,96 @@
+.introPage {
+  display: flex;
+  height: 100vh;
+  background-color: #ededed;
+}
+
+.introLeft {
+  flex: 1.25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.introLeftWrapper {
+  padding: 50px;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.titleIntro {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+.titleName {
+  font-size: 60px;
+  line-height: 72px;
+}
+.skillTitle {
+  height: 50px;
+  overflow: hidden;
+}
+.skillTitleWrapper {
+  height: 100%;
+  animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  25% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  75% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
+}
+
+.skillTitleItem {
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ca2c92;
+  display: flex;
+  align-items: center;
+}
+
+.introDescription {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.introScroll {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.introRight {
+  flex: 2;
+  position: relative;
+}
+.portraitBg {
+  clip-path: polygon(100% 0%, 50% 50%, 100% 100%, 50% 100%, 0% 50%, 50% 0);
+  background-color: #ca2c92;
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.portrait {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
