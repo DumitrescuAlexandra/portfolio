@@ -12,7 +12,7 @@ function Project(props) {
       <a href={props.link} target="_blank" rel="noreferrer">
         <img src={props.img} alt="" className={classes.projectImg}></img>
       </a>
-      <div className={classes.projectDescription}>dsadsa</div>
+      <div className={classes.projectDescription}>{props.description}</div>
     </div>
   );
 }

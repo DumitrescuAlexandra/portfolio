@@ -8,7 +8,7 @@ function Projects() {
     <div className={classes.projectsPage}>
       <div className={classes.projectsTexts}>
         <h1 className={classes.projectsTitle}>
-          Divide & conquer. One thing at a time
+          Divide <span>&</span> conquer. One thing at a time
         </h1>
         <div className={classes.projectsDescription}>
           During the learning process, I have developed some little projects.
@@ -18,7 +18,12 @@ function Projects() {
       </div>
       <div className={classes.projectsList}>
         {projects.map((item) => (
-          <Project key={item.id} img={item.img} link={item.link} />
+          <Project
+            key={item.id}
+            img={item.img}
+            link={item.link}
+            description={item.description}
+          />
         ))}
       </div>
     </div>

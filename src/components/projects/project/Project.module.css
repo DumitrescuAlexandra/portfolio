@@ -47,5 +47,5 @@
   position: sticky;
   background-color: rgb(194, 194, 194);
   height: 50px;
-  bottom: 0;
+  bottom: -1px;
 }
