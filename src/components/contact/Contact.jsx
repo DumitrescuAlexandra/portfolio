@@ -3,7 +3,7 @@ import classes from "./Contact.module.css";
 import phone from "../../images/phone.png";
 import email from "../../images/email.png";
 import address from "../../images/address.png";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
   const [done, setDone] = useState(false);
