@@ -11,17 +11,17 @@ export const projects = [
   },
   {
     id: 3,
-    img: "https://user-images.githubusercontent.com/89261015/135242340-b88bfbd6-684a-4db2-af18-54aa6c08b750.png",
+    img: "https://user-images.githubusercontent.com/89261015/155708993-684541fc-493f-418a-93fe-7a2a7c6fba55.png",
     link: "placeholer",
   },
   {
     id: 4,
-    img: "https://user-images.githubusercontent.com/89261015/135243482-ff9689f5-b0a3-4ec1-8d73-b1f5f1121deb.png",
+    img: "https://user-images.githubusercontent.com/89261015/155709364-14cb725e-54cf-41f6-b1cb-127fe09d5089.png",
     link: "placeholer",
   },
   {
     id: 5,
-    img: "https://user-images.githubusercontent.com/89261015/135245055-68a880cd-5c60-4025-974b-e8b0f59d44b9.png",
+    img: "https://user-images.githubusercontent.com/89261015/155709585-d8472ce5-ea5a-43ef-b7d3-165561b0fe37.png",
     link: "placeholer",
   },
   { id: 6, img: "", link: "placeholer" },

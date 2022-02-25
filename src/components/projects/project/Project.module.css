@@ -25,9 +25,9 @@
 }
 .projectImg {
   width: 100%;
-  transition: all 10s ease;
+  transition: all 6s ease;
 }
 
 .projectPage:hover .projectImg {
-  transform: translateY(-100%);
+  transform: translateY(-75%);
 }
