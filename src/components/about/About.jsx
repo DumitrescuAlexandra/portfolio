@@ -34,7 +34,7 @@ function About() {
           <img src={award} alt="" className={classes.aboutAwardImage} />
           <div className={classes.awardTexts}>
             <h4 className={classes.awardTitle}>
-              International Design Awards 2021
+              Certificate of completion - UDEMY Javascript Course
             </h4>
             <p className={classes.awardDescription}>
               Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit

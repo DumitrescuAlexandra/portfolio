@@ -17,9 +17,10 @@
 
 .aboutWrapperBg {
   position: absolute;
-  top: 50px;
-  left: 50px;
-  background-color: rgb(212, 238, 94);
+  top: 80px;
+  left: 130px;
+  border-radius: 30px;
+  background-color: rgb(116, 116, 116);
   width: 60%;
   height: 70vh;
 }
@@ -29,11 +30,49 @@
   border-radius: 30px;
   position: relative;
   overflow: hidden;
-  background-color: blue;
 }
 
 .aboutImg {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 30px;
+}
+
+.aboutTitle {
+  font-weight: 400;
+}
+
+.aboutSub {
+  margin: 20px 0px;
+}
+
+.aboutDescription {
+  font-weight: 300;
+}
+
+.award {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.awardTexts {
+  width: 50%;
+  padding-right: 36px;
+}
+
+.awardTitle {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.aboutAwardImage {
+  width: 40%;
+  height: 40%;
+  background-color: rgb(221, 219, 219);
+  padding: 2.5px;
+  border-radius: 20px;
 }
