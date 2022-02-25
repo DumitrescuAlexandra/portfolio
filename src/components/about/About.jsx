@@ -21,14 +21,21 @@ function About() {
       <div className={classes.aboutRight}>
         <h1 className={classes.aboutTitle}>About Me</h1>
         <p className={classes.aboutSub}>
-          It is a long established fact that a reader will be distracted by the
-          readable content.
+          Strong-willed person. Quick learner. A strong can-do attitude.
+          Self-motivation.
         </p>
         <p className={classes.aboutDescription}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+          I have always been a curious and determined person, seeking to
+          understand <br></br>in depth more and more about the overall
+          environment. When I set my objectives right, <br></br> I know there
+          are just delays, not failure. <br></br>
+          <br></br>
+          Currently I focus on front-end web development. I am purely amazed by
+          how complex <br></br> yet simple it is to "speak to" the WEB and
+          computers, in general.<br></br>
+          <br></br>I am fascinated and eager to dive deeper into this never
+          ending world of programming <br></br> which is, in itself, a real
+          treasure to be discovered.
         </p>
         <div className={classes.award}>
           <img src={award} alt="" className={classes.aboutAwardImage} />
