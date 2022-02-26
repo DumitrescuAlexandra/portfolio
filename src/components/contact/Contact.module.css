@@ -19,16 +19,16 @@
 }
 
 .contactTitle {
-  font-size: 600;
+  font-size: 60px;
   width: 80%;
 }
 
 .contactItem {
   display: flex;
   align-items: center;
-  margin: 50px 0;
+  margin: 50px 0px;
   font-weight: 300;
-  width: 75%;
+  width: 70%;
 }
 
 .contactImage {
@@ -53,7 +53,7 @@ form {
 }
 
 input {
-  width: 50%;
+  width: 60%;
   height: 50px;
   border: none;
   border-bottom: 1px solid black;
@@ -77,4 +77,38 @@ button {
   font-weight: 500;
   cursor: pointer;
   border-radius: 8px;
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    flex-direction: column;
+    padding: 0px 50px;
+  }
+  .contactTitle {
+    font-size: 30px;
+  }
+  .contactItem {
+    margin: 20px 0px;
+    width: 100%;
+  }
+  .contactDescription {
+    display: none;
+  }
+
+  form {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  input {
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+    margin-left: 0;
+  }
+
+  button {
+    margin-top: 10px;
+  }
 }

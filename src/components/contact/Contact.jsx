@@ -45,9 +45,7 @@ function Contact() {
             </div>
             <div className={classes.contactItem}>
               <img src={email} alt="" className={classes.contactImage}></img>
-              <div className={classes.contactEmail}>
-                dumitrescu.alexandra27@gmail.com
-              </div>
+              <div className={classes.contactEmail}>xensandra3@gmail.com</div>
             </div>
             <div className={classes.contactItem}>
               <img src={address} alt="" className={classes.contactImage}></img>
@@ -65,13 +63,9 @@ function Contact() {
             right project comes along, I am willing to help.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
-            <input type="text" placeholder="Name" name="user_name"></input>
-            <input
-              type="text"
-              placeholder="Subject"
-              name="user_subject"
-            ></input>
-            <input type="text" placeholder="Email" name="user_email"></input>
+            <input type="text" placeholder="Name" name="user_name" />
+            <input type="text" placeholder="Subject" name="user_subject" />
+            <input type="text" placeholder="Email" name="user_email" />
             <textarea rows="5" placeholder="Message" name="message" />
             <button>Submit</button>
             {done && "Thank you! I will get back to you ASAP"}
