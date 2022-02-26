@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Toggle.module.css";
-import Sun from "../../img/sun.png";
-import Moon from "../../img/moon.png";
+import sun from "../../images/sun.png";
+import moon from "../../images/moon.png";
 import { useContext } from "react";
 import { ThemeContext } from "../../context";
 
@@ -13,8 +13,8 @@ function Toggle() {
   };
   return (
     <div className={classes.togglePage}>
-      <img src={Sun} alt="" className={classes.toggleIcon} />
-      <img src={Moon} alt="" className={classes.toggleIcon} />
+      <img src={sun} alt="" className={classes.toggleIcon} />
+      <img src={moon} alt="" className={classes.toggleIcon} />
       <div
         className={classes.toggleButton}
         onClick={handleClick}

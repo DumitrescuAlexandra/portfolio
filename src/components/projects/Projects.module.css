@@ -20,11 +20,25 @@
 }
 
 .projectsDescription {
-  margin: 30px 0;
+  margin: 20px 0;
 }
 .projectsList {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .projects {
+    padding: 10px;
+  }
+
+  .projectsTexts {
+    width: 100%;
+  }
+
+  .projectsDescription {
+    display: none;
+  }
 }
