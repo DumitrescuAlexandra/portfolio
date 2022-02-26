@@ -19,13 +19,11 @@
 }
 .titleIntro {
   font-size: 30px;
-  /* line-height: 36px; */
   font-weight: 300;
 }
 
 .titleName {
   font-size: 60px;
-  /* line-height: 72px; */
 }
 
 .skillTitle {
@@ -60,12 +58,6 @@
   display: flex;
   align-items: center;
 }
-/* 
-.introDescription {
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 32px;
-} */
 
 .introScroll {
   width: 30px;
@@ -100,6 +92,17 @@
   .introPage {
     flex-direction: column;
   }
+  .titleIntro {
+    font-size: 24px;
+    font-weight: 300;
+  }
+
+  .titleName {
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 24px;
+  }
+
   .introLeftWrapper {
     padding: 10px;
     height: 100%;
@@ -110,7 +113,15 @@
   .introDescription {
     display: none;
   }
+
   .skillTitleItem {
-    text-align: center;
+    font-size: 26px;
+    justify-content: space-around;
+  }
+  .introRight {
+    margin-top: -40px;
+  }
+  .introScroll {
+    z-index: 3;
   }
 }

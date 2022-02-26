@@ -28,6 +28,7 @@ function Contact() {
           console.log(error.text);
         }
       );
+    e.target.reset();
   };
   return (
     <div className={classes.contactPage}>
