@@ -44,8 +44,9 @@ function About() {
               Certificate of completion - UDEMY Javascript Course
             </h4>
             <p className={classes.awardDescription}>
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-              and fugit.
+              Covered: Javascript fundamentals, DOM & Events, Data structures,
+              Modern operators, Object-Oriented Programming with JS and many
+              more!
             </p>
           </div>
         </div>
