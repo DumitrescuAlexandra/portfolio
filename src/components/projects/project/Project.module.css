@@ -50,7 +50,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  .project {
+  .projectPage {
     width: 40%;
     height: 20vh;
   }

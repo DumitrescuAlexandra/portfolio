@@ -30,14 +30,17 @@
 }
 
 @media screen and (max-width: 480px) {
-  .projects {
+  .projectsPage {
+    margin-top: 200px;
     padding: 10px;
   }
 
   .projectsTexts {
     width: 100%;
   }
-
+  .projectsTitle {
+    font-size: 30px;
+  }
   .projectsDescription {
     display: none;
   }
