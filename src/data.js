@@ -2,7 +2,7 @@ export const projects = [
   {
     id: 1,
     img: "https://user-images.githubusercontent.com/89261015/155715049-8bd16771-e568-4d38-bc7e-ebd9681bf11f.png",
-    link: "https://dumitrescualexandra.github.io/Psychademy/",
+    link: "https://DumitrescuAlexandra.github.io/Psychademy",
     description:
       "ReactJS  /  Conetxt API  / Modular CSS /  Firebase/Firestore  / Flexbox  / Framer Motion",
   },
