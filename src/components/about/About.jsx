@@ -2,8 +2,21 @@ import React from "react";
 import classes from "./About.module.css";
 import webdev from "../../images/webDevelopment.jpg";
 import award from "../../images/award.png";
+import axios from "axios";
 
 function About() {
+  async function getStuff() {
+    try {
+      const response = await axios.get(
+        "https://dad-jokes.p.rapidapi.com/random/joke"
+      );
+      console.log(response);
+    } catch (error) {
+      console.error(error);
+    }
+  }
+  getStuff();
+
   return (
     <div className={classes.aboutPage}>
       <div className={classes.aboutLeft}>
